@@ -1,0 +1,39 @@
+body {
+    background-image: url('https://images.unsplash.com/photo-1541899167-c57e0b45c60f'); /* Pozadí závodního auta */
+    background-size: cover;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 48px;
+    text-shadow: 2px 2px 4px black; /* Stín pro text */
+}
+
+#gameArea {
+    margin: 20px;
+}
+
+#clickButton {
+    font-size: 32px;
+    padding: 20px 40px;
+    background-color: rgba(255, 0, 0, 0.8); /* Červené pozadí */
+    color: white;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#clickButton:hover {
+    background-color: rgba(255, 0, 0, 1); /* Zesílená červená při přejetí myší */
+}
+
+#scoreBoard, #timer {
+    font-size: 24px;
+    margin-top: 10px;
+    text-shadow: 1px 1px 3px black; /* Stín pro text */
+}
